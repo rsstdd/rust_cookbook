@@ -21,7 +21,7 @@ fn main() {
     // Max and min of a 16 bit integer
     // (Will not compile example) //
     print!("Max and min of a 8 bit integer \n");
-    println!("Max i8 {}", i8::max_value());
+    println!("Max i8 {} ", i8::max_value());
     println!("Min i8 {}", i8::min_value());
     print!("========================================== \n \n");
 
