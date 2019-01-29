@@ -7,6 +7,7 @@ edition = "2018"
 [dependencies]
 time = "0.1.42"
 regex = "0.1.41"
+rand = { "https://github.com/rust-lang-nursery/rand.git" }
 
 # Compile mult binaries:
 # [[bin]]
