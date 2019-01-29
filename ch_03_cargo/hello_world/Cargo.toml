@@ -1,0 +1,18 @@
+[package]
+name = "hello_world"
+version = "0.1.0"
+authors = ["Ross Todd <rosstod@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+time = "0.1.42"
+regex = "0.1.41"
+
+# Compile mult binaries:
+# [[bin]]
+# name = "daemon"
+# path = "src/daemon/bin/main.rs"
+#
+# [[bin]]
+# name = "client"
+# path = "src/client/bin/main.rs"
