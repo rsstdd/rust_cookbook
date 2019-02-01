@@ -1,4 +1,5 @@
 // ! Create a sample library in Rust
+//! Create lib with `rustc crate-type=lib name_of_lib.ra`
 
 pub fn pub_func() {
     println!("Called sample_lib::pub_func()");
